@@ -1,0 +1,31 @@
+name: app
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^4.0.3
+  intl: ^0.17.0
+  date_picker_timeline:
+  syncfusion_flutter_datepicker: ^21.1.37
+  path_provider: ^2.0.2
+  sqflite: ^2.0.0+3
+  path: ^1.8.0
+  collection: ^1.15.0
+  splash_view: ^2.0.1
+  shared_preferences: ^2.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
